@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+var optimist = require('optimist');
+
+// read env vars & override options if necessary
+
+var deployinate = require('../index');
+
+// read repo; create manitfest
+// if force copy, put all files in manifest
+
+// pass files through enabled filteres
+
+// copy using requested transport (creds from env vars if necessary)
